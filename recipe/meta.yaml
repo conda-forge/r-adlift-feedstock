@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: adlift_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/adlift_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adlift/adlift_{{ version }}.tar.gz
@@ -16,7 +15,6 @@ source:
 build:
   merge_build_host: True  # [win]
   number: 1004
-  skip: true  # [win32]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,7 +43,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=adlift
-  license: GPL-2.0 and GPL-3.0
+  license: GPL-2.0-or-later
   summary: Adaptive wavelet lifting transforms for signal denoising using optimal local neighbourhood
     regression, from Nunes et al. (2006) <doi:10.1007/s11222-006-6560-y>.
   license_family: GPL
@@ -54,9 +52,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
