@@ -1,4 +1,4 @@
-{% set version = "1.4-2" %}
+{% set version = "1.4-3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adlift_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adlift/adlift_{{ version }}.tar.gz
-  sha256: 62b265c0a6dc6293dbbed282840571a7790e8fd8b77f5b588acb167554fb7b75
+  sha256: a5281ec81ccf35534ec33ac6e227597f92befae700307c0aa7cf9100ea4e49d2
 
 build:
   merge_build_host: true  # [win]
