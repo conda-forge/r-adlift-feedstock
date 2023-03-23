@@ -1,11 +1,22 @@
+About r-adlift-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adlift-feedstock/blob/main/LICENSE.txt)
+
 About r-adlift
-==============
+--------------
 
 Home: https://CRAN.R-project.org/package=adlift
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adlift-feedstock/blob/main/LICENSE.txt)
+Summary: Adaptive wavelet lifting transforms for signal denoising using optimal local neighbourhood regression, from Nunes et al. (2006) <doi:10.1007/s11222-006-6560-y>.
+About r-adlift
+--------------
+
+Home: https://CRAN.R-project.org/package=adlift
+
+Package license: GPL-2.0-or-later
 
 Summary: Adaptive wavelet lifting transforms for signal denoising using optimal local neighbourhood regression, from Nunes et al. (2006) <doi:10.1007/s11222-006-6560-y>.
 
