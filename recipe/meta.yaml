@@ -1,4 +1,4 @@
-{% set version = "1.4-5" %}
+{% set version = "1.4-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adlift_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adlift/adlift_{{ version }}.tar.gz
-  sha256: b3e1ddf1f45ff047fbaed627ae3d9320a0d8c58ccd699f7cab871156fa54c14d
+  sha256: 76a304beae512f39e9496d6849e7ce570c1204dae18a5efd9778e8921d30bb32
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
